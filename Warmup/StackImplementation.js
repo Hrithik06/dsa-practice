@@ -1,11 +1,11 @@
 class Stack {
-  stackArr: any[];
+  stackArr;
   constructor() {
     // Initialize your stack
     this.stackArr = [];
   }
 
-  push(element: any) {
+  push(element) {
     // Add element to the top
     this.stackArr.push(element);
     return this.stackArr.length;
